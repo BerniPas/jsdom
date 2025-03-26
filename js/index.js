@@ -8,7 +8,7 @@ navBar.style.borderBottom = '2px solid #ddd';
 
 // Crear y agregar los enlaces manualmente
 const homeLink = document.createElement('a');
-homeLink.href = './home.html';
+homeLink.href = './index.html';
 homeLink.textContent = 'Home';
 homeLink.style.textDecoration = 'none';
 homeLink.style.color = '#333';
