@@ -18,6 +18,7 @@ function procesarFormulario(event) {
     let user = document.getElementById("nombreUser").value;
     let nombre = document.getElementById("nombreProducto").value;
     let descripcion = document.getElementById("descripcionProducto").value;
+    let imagen = document.getElementById("imagen").value;
     let stock = document.getElementById("stockProducto").value;
     let precio = document.getElementById("precioCosto").value;
     let proveedor = document.getElementById("proveedorProducto").value;
@@ -27,6 +28,7 @@ function procesarFormulario(event) {
     let producto = {
         nombre: nombre,
         descripcion: descripcion,
+        imagen: imagen,
         stock: stock,
         precio:  precio,    
         proveedor: proveedor,
